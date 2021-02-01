@@ -5,6 +5,10 @@ html, body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-logo {
     height: 92px;
     width: 272px;
@@ -43,6 +47,7 @@ html, body {
     display: flex;
     margin: 0 2em 0 2em;
     justify-content: space-between;
+    padding: 6px;
 }
 
 .footer {
@@ -91,4 +96,25 @@ html, body {
     color: white;
     border-style: solid;
     border-width: 0px;
+}
+
+.header-top-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-top-left > * {
+    margin-left: 15px;
+}
+
+.header-top-right > * {
+    margin-right: 15px;
+}
+
+.footer-bottom-left > * {
+    margin-right: 15px;
+}
+
+.footer-bottom-right > * {
+    margin-left: 15px;
 }
