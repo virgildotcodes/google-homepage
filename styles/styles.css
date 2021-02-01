@@ -1,0 +1,10 @@
+.main-logo {
+    height: 92px;
+    width: 272px;
+}
+
+.central-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
