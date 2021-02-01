@@ -3,8 +3,33 @@
     width: 272px;
 }
 
+.main-div {
+    height: 100%;
+    width: 100%;
+}
+
 .central-elements {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+}
+
+.search-form {
+    margin-top: 1em;
+}
+
+.search-input-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.search-buttons {
+    margin-top: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
