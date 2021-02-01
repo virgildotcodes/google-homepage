@@ -53,8 +53,31 @@ html, body {
     background-color: rgb(242, 242, 242);
 }
 
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-bottom {
     display: flex;
     width: 50em;
     justify-content: space-around;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+
+.footer-leaf {
+    height: 14px;
+    width: 12px;
+}
+
+.search-input-box-actual {
+    border-radius: 30px;
+    width: 487px;
+    height: 34px;
+    border-width: 1px;
+    border-color: rgb(248, 249, 250);
 }
