@@ -79,5 +79,16 @@ html, body {
     width: 487px;
     height: 34px;
     border-width: 1px;
-    border-color: rgb(248, 249, 250);
+    border-color: rgb(228, 229, 233);
+    border-style: solid;
+}
+
+.sign-in-button {
+    height: 44px;
+    width: 94px;
+    background-color: rgb(33, 112, 211);
+    border-radius: 5px;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
 }
