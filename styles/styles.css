@@ -33,3 +33,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.footer-bottom {
+    display: flex;
+    width: 50em;
+    justify-content: space-around;
+}
