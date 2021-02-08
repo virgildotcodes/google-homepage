@@ -167,6 +167,7 @@ a {
 .svg-header-top-right {
     height: 16px;
     width: 16px;
+    fill:#70757a;
 }
 
 .rect-header-top-right {
@@ -184,4 +185,16 @@ a {
 
 input:focus {
     outline: none;
+}
+
+.search-input-box:hover {
+    box-shadow: 0 1px 6px 0 rgb(32, 33, 36, .28);
+}
+
+.search-button-actual:hover {
+    box-shadow: 0 1px 6px 0 rgb(32, 33, 36, .28);
+}
+
+.svg-header-top-right:hover {
+    fill: black;
 }
