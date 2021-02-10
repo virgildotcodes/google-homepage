@@ -100,12 +100,14 @@ a {
 .footer-leaf {
     height: 14px;
     width: 12px;
+    margin-right: 4px;
 }
 
 .search-input-box-actual {
     width: 400px;
     height: 32px;
     border-style: hidden;
+    font-size: medium;
 }
 
 .header-top-left {
@@ -177,6 +179,7 @@ a {
 
 .logo-search-magnifying-lens {
     margin-left: 1em;
+    fill:#70757a;
 }
 
 .logo-search-microphone {
